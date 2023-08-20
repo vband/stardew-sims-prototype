@@ -9,6 +9,10 @@ namespace StardewSimsCode.SerializedTypes.Base
         
         public T Value => _runtimeValue;
 
+        public delegate void OnValueChangedDelegate();
+
+        public event OnValueChangedDelegate ValueChanged;
+
         public void OnEnable()
         {
             _runtimeValue = _initialValue;
@@ -17,6 +21,8 @@ namespace StardewSimsCode.SerializedTypes.Base
         public void SetValue(T value)
         {
             _runtimeValue = value;
+            
+            ValueChanged?.Invoke();
         }
     }
 }

@@ -1,10 +1,11 @@
-﻿using StardewSimsCode.SerializedTypes.Implementations;
+﻿using StardewSimsCode.SerializedTypes.Base;
+using StardewSimsCode.SerializedTypes.Implementations;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 namespace StardewSimsCode.SerializedTypes.Behaviours
 {
-    public class SetSerializedBoolFromInput : MonoBehaviour
+    public class SetSerializedBoolFromInput : SetSerializedVariableFromInputBehaviour
     {
         [SerializeField] private SerializedBool _boolVariable;
 
@@ -14,7 +15,7 @@ namespace StardewSimsCode.SerializedTypes.Behaviours
                 Debug.LogError($"{_boolVariable.name} is null");
         }
 
-        public void SetValue(InputAction.CallbackContext context)
+        public override void SetValue(InputAction.CallbackContext context)
         {
             if (_boolVariable == null)
                 return;

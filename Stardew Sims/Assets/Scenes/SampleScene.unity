@@ -343,6 +343,134 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &520491625
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 520491629}
+  - component: {fileID: 520491628}
+  - component: {fileID: 520491627}
+  - component: {fileID: 520491626}
+  m_Layer: 0
+  m_Name: Player Input Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &520491626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520491625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3f9a6decde46dfba89f7d3bc0c3d96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _vector2Variable: {fileID: 11400000, guid: ea7fdb1749b8f0049bd7063616325f26, type: 2}
+--- !u!114 &520491627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520491625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44ff1d65419d458f91303ee9be9a6ba8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _boolVariable: {fileID: 11400000, guid: 329c56026d069a842b0be456b68262c9, type: 2}
+--- !u!114 &520491628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520491625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 2fdc255f32561494890e272c85875173, type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 520491626}
+        m_TargetAssemblyTypeName: StardewSimsCode.SerializedTypes.Behaviours.SetSerializedVector2FromInput,
+          Assembly-CSharp
+        m_MethodName: SetValue
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: da6320ce-5ec3-486c-afeb-287adfd3ccd9
+    m_ActionName: Player Input/Movement[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: a6b21bbc-8e02-4c8f-91c0-27746cccc445
+    m_ActionName: Player Input/Interaction[/Keyboard/space,/Keyboard/enter]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 520491627}
+        m_TargetAssemblyTypeName: StardewSimsCode.SerializedTypes.Behaviours.SetSerializedBoolFromInput,
+          Assembly-CSharp
+        m_MethodName: SetValue
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 59b99175-ea20-405d-b36f-a6825606eec6
+    m_ActionName: Player Input/Run[/Keyboard/leftShift]
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player Input
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!4 &520491629
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520491625}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1108354989
 GameObject:
   m_ObjectHideFlags: 0
@@ -356,6 +484,7 @@ GameObject:
   - component: {fileID: 1108354993}
   - component: {fileID: 1108354992}
   - component: {fileID: 1108354991}
+  - component: {fileID: 1108354995}
   m_Layer: 0
   m_Name: Base
   m_TagString: Untagged
@@ -479,6 +608,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1108354995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108354989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c043b765f1e2461da6be062cc710b316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _runInput: {fileID: 11400000, guid: 329c56026d069a842b0be456b68262c9, type: 2}
+  _movementInput: {fileID: 11400000, guid: ea7fdb1749b8f0049bd7063616325f26, type: 2}
+  _animator: {fileID: 1108354991}
+  _isWalkingParameterName: {fileID: 11400000, guid: 260bc9f017dd14941ba38e465e17d0e3, type: 2}
+  _isRunningParameterName: {fileID: 11400000, guid: 0ca4a9eb249a0d8469a1252700aa251c, type: 2}
+  _horizontalMovementParameterName: {fileID: 11400000, guid: 75422b98c7b09d54989c99c7f85271f0, type: 2}
+  _verticalMovementParameterName: {fileID: 11400000, guid: bdc21d3a9c885a447951427fedf343dc, type: 2}
 --- !u!1 &1682002105
 GameObject:
   m_ObjectHideFlags: 0
@@ -624,9 +772,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1732398508}
-  - component: {fileID: 1732398510}
   - component: {fileID: 1732398509}
-  - component: {fileID: 1732398511}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -665,90 +811,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab828060fb2d64144b89746ff7c8996d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _runInput: {fileID: 11400000, guid: 329c56026d069a842b0be456b68262c9, type: 2}
+  _movementInput: {fileID: 11400000, guid: ea7fdb1749b8f0049bd7063616325f26, type: 2}
   _walkVelocity: {fileID: 11400000, guid: ab318af03146fcc4f96484d348ec3bc9, type: 2}
   _runVelocity: {fileID: 11400000, guid: 4f0ed3f2f0874ed45ae6ee55f80e02a7, type: 2}
-  _isRunning: {fileID: 11400000, guid: 329c56026d069a842b0be456b68262c9, type: 2}
   _movementEnabled: {fileID: 11400000, guid: b3a4a63d053d18d4f801accc33b39ba3, type: 2}
---- !u!114 &1732398510
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1732398503}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 2fdc255f32561494890e272c85875173, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1732398509}
-        m_TargetAssemblyTypeName: StardewSimsCode.Movement.CharacterMovement, Assembly-CSharp
-        m_MethodName: GetInput
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: da6320ce-5ec3-486c-afeb-287adfd3ccd9
-    m_ActionName: Player Input/Movement[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: a6b21bbc-8e02-4c8f-91c0-27746cccc445
-    m_ActionName: Player Input/Interaction[/Keyboard/space,/Keyboard/enter]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1732398511}
-        m_TargetAssemblyTypeName: StardewSimsCode.SerializedTypes.Behaviours.SetSerializedBoolFromInput,
-          Assembly-CSharp
-        m_MethodName: SetValue
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 59b99175-ea20-405d-b36f-a6825606eec6
-    m_ActionName: Player Input/Run[/Keyboard/leftShift]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Player Input
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
---- !u!114 &1732398511
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1732398503}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44ff1d65419d458f91303ee9be9a6ba8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _boolVariable: {fileID: 11400000, guid: 329c56026d069a842b0be456b68262c9, type: 2}
 --- !u!1 &2108471516
 GameObject:
   m_ObjectHideFlags: 0
