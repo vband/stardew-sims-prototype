@@ -1,5 +1,5 @@
 {
-    "name": "New Controls",
+    "name": "Input Actions",
     "maps": [
         {
             "name": "Player Input",
@@ -18,6 +18,15 @@
                     "name": "Interaction",
                     "type": "Button",
                     "id": "a6b21bbc-8e02-4c8f-91c0-27746cccc445",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Run",
+                    "type": "Button",
+                    "id": "59b99175-ea20-405d-b36f-a6825606eec6",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -187,6 +196,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "Interaction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8f90ea57-0edf-4d7c-88b7-33e30fe236f1",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Run",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "58536763-2668-4418-86cf-9098cc444ca6",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Run",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
