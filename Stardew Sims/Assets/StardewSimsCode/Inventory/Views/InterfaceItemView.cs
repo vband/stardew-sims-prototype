@@ -6,16 +6,17 @@ namespace StardewSimsCode.Inventory.Views
 {
     public class InterfaceItemView : MonoBehaviour
     {
-        [SerializeField] private Image _image;
-        [SerializeField] private Item _item;
+        [SerializeField] protected Image _image;
+        [SerializeField] protected Item _item;
 
-        private bool _isActive;
+        protected bool _isActive;
 
         public bool IsActive => _isActive;
 
-        public void SetItem(Item item)
+        public virtual bool TrySetItem(Item item)
         {
             _item = item;
+            return true;
         }
 
         public void UpdateView()
