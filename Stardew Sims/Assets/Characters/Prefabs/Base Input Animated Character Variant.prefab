@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7361349531567503368
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 181175175072085013, guid: 87597a21157b3b74a90c0d314233e891, type: 3}
+      propertyPath: m_Name
+      value: Base Input Animated Character Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 181175175072085014, guid: 87597a21157b3b74a90c0d314233e891, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 181175175072085014, guid: 87597a21157b3b74a90c0d314233e891, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 181175175072085014, guid: 87597a21157b3b74a90c0d314233e891, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 181175175072085014, guid: 87597a21157b3b74a90c0d314233e891, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 181175175072085014, guid: 87597a21157b3b74a90c0d314233e891, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 181175175072085014, guid: 87597a21157b3b74a90c0d314233e891, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 181175175072085014, guid: 87597a21157b3b74a90c0d314233e891, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 181175175072085014, guid: 87597a21157b3b74a90c0d314233e891, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 181175175072085014, guid: 87597a21157b3b74a90c0d314233e891, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 181175175072085014, guid: 87597a21157b3b74a90c0d314233e891, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 181175175072085014, guid: 87597a21157b3b74a90c0d314233e891, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 87597a21157b3b74a90c0d314233e891, type: 3}
+--- !u!1 &7254012267100621853 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 181175175072085013, guid: 87597a21157b3b74a90c0d314233e891, type: 3}
+  m_PrefabInstance: {fileID: 7361349531567503368}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1311562940145565811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7254012267100621853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c043b765f1e2461da6be062cc710b316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _runInput: {fileID: 11400000, guid: 329c56026d069a842b0be456b68262c9, type: 2}
+  _movementInput: {fileID: 11400000, guid: ea7fdb1749b8f0049bd7063616325f26, type: 2}
+  _animator: {fileID: 6746605894446193758}
+  _isWalkingParameterName: {fileID: 11400000, guid: 260bc9f017dd14941ba38e465e17d0e3, type: 2}
+  _isRunningParameterName: {fileID: 11400000, guid: 0ca4a9eb249a0d8469a1252700aa251c, type: 2}
+  _horizontalMovementParameterName: {fileID: 11400000, guid: 75422b98c7b09d54989c99c7f85271f0, type: 2}
+  _verticalMovementParameterName: {fileID: 11400000, guid: bdc21d3a9c885a447951427fedf343dc, type: 2}
+--- !u!95 &6746605894446193758
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7254012267100621853}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0337786323158774494918ebf4e7d4ca, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
