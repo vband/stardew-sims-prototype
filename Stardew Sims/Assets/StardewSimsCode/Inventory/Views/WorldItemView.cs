@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using StardewSimsCode.Inventory.Items;
+using UnityEngine;
 
 namespace StardewSimsCode.Inventory.Views
 {

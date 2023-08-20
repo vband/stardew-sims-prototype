@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.U2D.Animation;
 
-namespace StardewSimsCode.Inventory
+namespace StardewSimsCode.Inventory.Items
 {
     public abstract class WearableItem : Item
     {

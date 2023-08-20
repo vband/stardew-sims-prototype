@@ -1,19 +1,15 @@
-﻿using UnityEngine;
+﻿using StardewSimsCode.Inventory.Items;
+using UnityEngine;
 
 namespace StardewSimsCode.Inventory
 {
     [CreateAssetMenu(fileName = "NewInventory", menuName = "StardewSims/Inventory/Inventory")]
     public class Inventory : ScriptableObject
     {
-        [SerializeField] private Item[] _items = new Item[10];
-        [SerializeField] private OutfitItem _outfit;
-        [SerializeField] private HairItem _hair;
-        [SerializeField] private HatItem _hat;
-
-        public Item[] Items => _items;
-        public OutfitItem Outfit => _outfit;
-        public HairItem Hair => _hair;
-        public HatItem Hat => _hat;
+        public Item[] Items { get; } = new Item[10];
+        public OutfitItem Outfit { get; private set; }
+        public HairItem Hair { get; private set; }
+        public HatItem Hat { get; private set; }
 
         public delegate void OnInventoryChangedDelegate();
         public event OnInventoryChangedDelegate InventoryChanged;
@@ -24,9 +20,9 @@ namespace StardewSimsCode.Inventory
         public int GetFreeSpacesCount()
         {
             var freeSpaces = 0;
-            for (var i = 0; i < _items.Length; i++)
+            for (var i = 0; i < Items.Length; i++)
             {
-                if (_items[i] == null)
+                if (Items[i] == null)
                     freeSpaces++;
             }
 
@@ -40,9 +36,9 @@ namespace StardewSimsCode.Inventory
             if (GetFreeSpacesCount() == 0)
                 return false;
 
-            for (var i = 0; i < _items.Length; i++)
+            for (var i = 0; i < Items.Length; i++)
             {
-                if (_items[i] != null)
+                if (Items[i] != null)
                     continue;
                 
                 freeSpaceIndex = i;
@@ -54,34 +50,34 @@ namespace StardewSimsCode.Inventory
 
         public bool IsEquippingOutfit()
         {
-            return _outfit != null;
+            return Outfit != null;
         }
 
         public bool IsEquippingHair()
         {
-            return _hair != null;
+            return Hair != null;
         }
 
         public bool IsEquippingHat()
         {
-            return _hat != null;
+            return Hat != null;
         }
 
         public void EquipOutfit(OutfitItem outfit)
         {
-            _outfit = outfit;
+            Outfit = outfit;
             InventoryChanged?.Invoke();
         }
         
         public void EquipHair(HairItem hair)
         {
-            _hair = hair;
+            Hair = hair;
             InventoryChanged?.Invoke();
         }
         
         public void EquipHat(HatItem hat)
         {
-            _hat = hat;
+            Hat = hat;
             InventoryChanged?.Invoke();
         }
 
@@ -90,7 +86,7 @@ namespace StardewSimsCode.Inventory
             if (!IsEquippingOutfit())
                 return;
 
-            _outfit = null;
+            Outfit = null;
             
             InventoryChanged?.Invoke();
         }
@@ -100,7 +96,7 @@ namespace StardewSimsCode.Inventory
             if (!IsEquippingHair())
                 return;
 
-            _hair = null;
+            Hair = null;
             
             InventoryChanged?.Invoke();
         }
@@ -110,7 +106,7 @@ namespace StardewSimsCode.Inventory
             if (!IsEquippingHat())
                 return;
 
-            _hat = null;
+            Hat = null;
             
             InventoryChanged?.Invoke();
         }
@@ -118,6 +114,12 @@ namespace StardewSimsCode.Inventory
         public void DropItem(Item item)
         {
             DroppedItem?.Invoke(item);
+        }
+
+        public void AddItem(int index, Item item)
+        {
+            Items[index] = item;
+            InventoryChanged?.Invoke();
         }
     }
 }

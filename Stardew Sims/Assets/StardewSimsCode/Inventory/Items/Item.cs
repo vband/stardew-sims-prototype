@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace StardewSimsCode.Inventory
+namespace StardewSimsCode.Inventory.Items
 {
     [CreateAssetMenu(fileName = "NewItem", menuName = "StardewSims/Inventory/Item")]
     public class Item : ScriptableObject
