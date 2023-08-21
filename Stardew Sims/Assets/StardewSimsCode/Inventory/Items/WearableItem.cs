@@ -7,7 +7,7 @@ namespace StardewSimsCode.Inventory.Items
     {
         [SerializeField] private SpriteLibraryAsset _spriteLibrary;
         public SpriteLibraryAsset SpriteLibraryAsset => _spriteLibrary;
-
-        public abstract void Equip(Inventory inventory);
+        
+        
     }
 }

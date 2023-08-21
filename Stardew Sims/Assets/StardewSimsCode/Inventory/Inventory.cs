@@ -1,4 +1,5 @@
-﻿using StardewSimsCode.Inventory.Items;
+﻿using StardewSimsCode.GlobalEvents;
+using StardewSimsCode.Inventory.Items;
 using UnityEngine;
 
 namespace StardewSimsCode.Inventory
@@ -6,6 +7,8 @@ namespace StardewSimsCode.Inventory
     [CreateAssetMenu(fileName = "NewInventory", menuName = "StardewSims/Inventory/Inventory")]
     public class Inventory : ScriptableObject
     {
+        [SerializeField] private GlobalEvent _onDroppedItemGlobalEvent;
+        
         [SerializeField] private Item[] _items = new Item[10];
         [SerializeField] private OutfitItem _outfit = null;
         [SerializeField] private HairItem _hair = null;
@@ -18,9 +21,6 @@ namespace StardewSimsCode.Inventory
 
         public delegate void OnInventoryChangedDelegate();
         public event OnInventoryChangedDelegate InventoryChanged;
-
-        public delegate void OnDroppedItem(Item droppedItem);
-        public event OnDroppedItem DroppedItem;
 
         public int GetFreeSpacesCount()
         {
@@ -118,7 +118,7 @@ namespace StardewSimsCode.Inventory
 
         public void DropItem(Item item)
         {
-            DroppedItem?.Invoke(item);
+            _onDroppedItemGlobalEvent.Trigger(item);
         }
 
         public void SetItemAtIndex(int index, Item item)
