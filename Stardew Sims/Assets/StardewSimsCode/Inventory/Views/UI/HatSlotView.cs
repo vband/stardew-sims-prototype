@@ -2,7 +2,7 @@
 
 namespace StardewSimsCode.Inventory.Views.UI
 {
-    public class InterfaceHatView : InterfaceItemView
+    public class HatSlotView : ItemSlotView
     {
         public override Item Item => _inventory.Hat;
         

@@ -7,7 +7,7 @@ namespace StardewSimsCode.Inventory.DragAndDrop
     public struct DragData
     {
         public Item ItemBeingDragged;
-        public InterfaceItemView OriginSlot;
-        public InterfaceItemView DestinationSlot;
+        public ItemSlotView OriginSlot;
+        public ItemSlotView DestinationSlot;
     }
 }

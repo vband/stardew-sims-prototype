@@ -2,7 +2,7 @@
 
 namespace StardewSimsCode.Inventory.Views.UI
 {
-    public class InterfaceOutfitView : InterfaceItemView
+    public class OutfitSlotView : ItemSlotView
     {
         public override Item Item => _inventory.Outfit;
 

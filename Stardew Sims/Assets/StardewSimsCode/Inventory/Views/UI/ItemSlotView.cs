@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 namespace StardewSimsCode.Inventory.Views.UI
 {
-    public class InterfaceItemView : MonoBehaviour
+    public class ItemSlotView : MonoBehaviour
     {
         [SerializeField] private int _inventoryIndex;
         [SerializeField] protected Image _image;

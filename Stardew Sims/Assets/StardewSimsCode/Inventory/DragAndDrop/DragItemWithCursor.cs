@@ -58,7 +58,7 @@ namespace StardewSimsCode.Inventory.DragAndDrop
             destinationSlot.UpdateView();
         }
 
-        private static void PlaceItemAtOriginSlot(InterfaceItemView originSlot, Item itemBeingDragged)
+        private static void PlaceItemAtOriginSlot(ItemSlotView originSlot, Item itemBeingDragged)
         {
             originSlot.TrySetItem(itemBeingDragged);
             originSlot.UpdateView();
