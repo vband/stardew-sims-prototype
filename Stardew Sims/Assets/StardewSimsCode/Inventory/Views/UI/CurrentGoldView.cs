@@ -8,6 +8,15 @@ namespace StardewSimsCode.Inventory.Views.UI
         [SerializeField] private Inventory _inventory;
         [SerializeField] private TextMeshProUGUI _text;
 
+        public void SetInventory(object data)
+        {
+            if (data is not Inventory inventory)
+                return;
+
+            _inventory = inventory;
+            UpdateView();
+        }
+
         private void Start()
         {
             UpdateView();
