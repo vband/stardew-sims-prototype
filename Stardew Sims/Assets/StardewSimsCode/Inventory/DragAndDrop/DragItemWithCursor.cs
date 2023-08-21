@@ -43,17 +43,24 @@ namespace StardewSimsCode.Inventory.DragAndDrop
                 {
                     PlaceItemAtOriginSlot(originSlot, itemBeingDragged);
                 }
+                
+                GoldExchange.TransferGold(originSlot.Inventory, destinationSlot.Inventory, itemBeingDragged);
                 destinationSlot.UpdateView();
                 
                 return;
             }
 
+            var destinationSlotInitialItem = destinationSlot.Item;
+            
             // Swap items between slots. If unable, leave dragged item at origin slot
             if (!originSlot.TrySetItem(destinationSlot.Item) || !destinationSlot.TrySetItem(itemBeingDragged))
             {
                 PlaceItemAtOriginSlot(originSlot, itemBeingDragged);
                 return;
             }
+            
+            GoldExchange.TransferGold(originSlot.Inventory, destinationSlot.Inventory, itemBeingDragged);
+            GoldExchange.TransferGold(destinationSlot.Inventory, originSlot.Inventory, destinationSlotInitialItem);
             originSlot.UpdateView();
             destinationSlot.UpdateView();
         }

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PlayerInventory
   m_EditorClassIdentifier: 
   _onDroppedItemGlobalEvent: {fileID: 11400000, guid: a86373261356dff49b878ededa41be80, type: 2}
-  _items:
+  _startingItems:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -24,6 +24,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  _outfit: {fileID: 0}
-  _hair: {fileID: 0}
-  _hat: {fileID: 0}
+  _startingOutfit: {fileID: 0}
+  _startingHair: {fileID: 0}
+  _startingHat: {fileID: 0}
+  _startingGold: 20

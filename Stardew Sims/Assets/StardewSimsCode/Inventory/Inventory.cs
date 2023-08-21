@@ -28,7 +28,15 @@ namespace StardewSimsCode.Inventory
         public HairItem Hair => _hair;
         public HatItem Hat => _hat;
 
-        public int Gold => _gold;
+        public int Gold
+        {
+            get => _gold;
+            set
+            {
+                _gold = value;
+                InventoryChanged?.Invoke();
+            }
+        }
 
         public delegate void OnInventoryChangedDelegate();
         public event OnInventoryChangedDelegate InventoryChanged;
