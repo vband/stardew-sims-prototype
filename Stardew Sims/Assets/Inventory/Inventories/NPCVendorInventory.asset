@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _onDroppedItemGlobalEvent: {fileID: 0}
   _items:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: a26c8f542b8242c45a673b34aed615d3, type: 2}
+  - {fileID: 11400000, guid: c77d1ef8350f992458a4269b29a4bbea, type: 2}
+  - {fileID: 11400000, guid: 829a9edd155fffa498732d610ed1cdec, type: 2}
+  - {fileID: 11400000, guid: 5f92c2cb2ce78754587f44d5172eed2a, type: 2}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}

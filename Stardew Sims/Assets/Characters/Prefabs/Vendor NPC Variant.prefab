@@ -57,7 +57,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2276293908440070683, guid: 016b08c8eae600145819415df1477934, type: 3}
       propertyPath: m_Name
-      value: Vendor NPC
+      value: Vendor NPC Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4613209402280213594, guid: 016b08c8eae600145819415df1477934, type: 3}
       propertyPath: _inventory
@@ -65,6 +65,10 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: a1545545ce51a1a4abcd9cd50bcf4b45, type: 2}
     - target: {fileID: 5470712771912713761, guid: 016b08c8eae600145819415df1477934, type: 3}
       propertyPath: _inventory
+      value: 
+      objectReference: {fileID: 11400000, guid: a1545545ce51a1a4abcd9cd50bcf4b45, type: 2}
+    - target: {fileID: 6509207457038437880, guid: 016b08c8eae600145819415df1477934, type: 3}
+      propertyPath: _npcInventory
       value: 
       objectReference: {fileID: 11400000, guid: a1545545ce51a1a4abcd9cd50bcf4b45, type: 2}
     m_RemovedComponents: []
