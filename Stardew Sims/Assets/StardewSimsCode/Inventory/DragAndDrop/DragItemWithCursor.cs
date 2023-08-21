@@ -39,9 +39,11 @@ namespace StardewSimsCode.Inventory.DragAndDrop
             if (destinationSlot.Item == null)
             {
                 // Place dragged item at other slot. If unable, leave it at origin slot
-                if (!destinationSlot.TrySetItem(itemBeingDragged))
+                if (!GoldExchange.CanAfford(destinationSlot.Inventory, itemBeingDragged)
+                    || !destinationSlot.TrySetItem(itemBeingDragged))
                 {
                     PlaceItemAtOriginSlot(originSlot, itemBeingDragged);
+                    return;
                 }
                 
                 GoldExchange.TransferGold(originSlot.Inventory, destinationSlot.Inventory, itemBeingDragged);
@@ -53,7 +55,10 @@ namespace StardewSimsCode.Inventory.DragAndDrop
             var destinationSlotInitialItem = destinationSlot.Item;
             
             // Swap items between slots. If unable, leave dragged item at origin slot
-            if (!originSlot.TrySetItem(destinationSlot.Item) || !destinationSlot.TrySetItem(itemBeingDragged))
+            if (!GoldExchange.CanAfford(originSlot.Inventory, destinationSlot.Item)
+                || !GoldExchange.CanAfford(destinationSlot.Inventory, itemBeingDragged)
+                || !originSlot.TrySetItem(destinationSlot.Item)
+                || !destinationSlot.TrySetItem(itemBeingDragged))
             {
                 PlaceItemAtOriginSlot(originSlot, itemBeingDragged);
                 return;

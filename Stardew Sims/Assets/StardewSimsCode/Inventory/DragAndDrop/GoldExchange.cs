@@ -10,5 +10,10 @@ namespace StardewSimsCode.Inventory.DragAndDrop
             originInventory.Gold += itemPrice;
             destinationInventory.Gold -= itemPrice;
         }
+
+        public static bool CanAfford(Inventory receivingInventory, Item purchasedItem)
+        {
+            return receivingInventory.Gold >= purchasedItem.Price;
+        }
     }
 }

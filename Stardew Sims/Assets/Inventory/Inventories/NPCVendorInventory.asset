@@ -27,4 +27,4 @@ MonoBehaviour:
   _startingOutfit: {fileID: 11400000, guid: 5f92c2cb2ce78754587f44d5172eed2a, type: 2}
   _startingHair: {fileID: 0}
   _startingHat: {fileID: 11400000, guid: 99cfbf391b5af584fb0b543ea8c58381, type: 2}
-  _startingGold: 0
+  _startingGold: 100

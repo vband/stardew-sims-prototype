@@ -27,4 +27,4 @@ MonoBehaviour:
   _startingOutfit: {fileID: 0}
   _startingHair: {fileID: 0}
   _startingHat: {fileID: 0}
-  _startingGold: 20
+  _startingGold: 5
