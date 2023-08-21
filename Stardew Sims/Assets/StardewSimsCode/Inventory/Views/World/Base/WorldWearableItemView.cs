@@ -30,5 +30,11 @@ namespace StardewSimsCode.Inventory.Views.World.Base
         {
             UpdateSpriteLibrary();
         }
+        
+        protected void SetUpEmptyPiece()
+        {
+            _spriteLibrary.spriteLibraryAsset = null;
+            _spriteRenderer.sprite = null;
+        }
     }
 }

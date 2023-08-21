@@ -8,12 +8,16 @@ namespace StardewSimsCode.Inventory.Views.World.Implementations
         {
             if (_inventory.IsEquippingHair())
             {
-                _spriteLibrary.spriteLibraryAsset = _inventory.Hair.SpriteLibraryAsset;
+                SetUpEquippedHair();
                 return;
             }
 
-            _spriteLibrary.spriteLibraryAsset = null;
-            _spriteRenderer.sprite = null;
+            SetUpEmptyPiece();
+        }
+
+        private void SetUpEquippedHair()
+        {
+            _spriteLibrary.spriteLibraryAsset = _inventory.Hair.SpriteLibraryAsset;
         }
     }
 }

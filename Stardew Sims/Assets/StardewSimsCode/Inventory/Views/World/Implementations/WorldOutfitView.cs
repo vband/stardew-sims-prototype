@@ -8,12 +8,16 @@ namespace StardewSimsCode.Inventory.Views.World.Implementations
         {
             if (_inventory.IsEquippingOutfit())
             {
-                _spriteLibrary.spriteLibraryAsset = _inventory.Outfit.SpriteLibraryAsset;
+                SetUpEquippedOutfit();
                 return;
             }
 
-            _spriteLibrary.spriteLibraryAsset = null;
-            _spriteRenderer.sprite = null;
+            SetUpEmptyPiece();
+        }
+
+        private void SetUpEquippedOutfit()
+        {
+            _spriteLibrary.spriteLibraryAsset = _inventory.Outfit.SpriteLibraryAsset;
         }
     }
 }

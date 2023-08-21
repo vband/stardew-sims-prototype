@@ -1,5 +1,6 @@
 ﻿using StardewSimsCode.Inventory.Items;
 using StardewSimsCode.Inventory.Views.UI;
+using StardewSimsCode.Inventory.Views.UI.ItemSlotViews;
 using StardewSimsCode.SerializedTypes.Implementations;
 using UnityEngine;
 using UnityEngine.InputSystem;

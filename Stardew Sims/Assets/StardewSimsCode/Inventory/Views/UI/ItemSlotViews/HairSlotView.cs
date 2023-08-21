@@ -1,6 +1,6 @@
 ﻿using StardewSimsCode.Inventory.Items;
 
-namespace StardewSimsCode.Inventory.Views.UI
+namespace StardewSimsCode.Inventory.Views.UI.ItemSlotViews
 {
     public class HairSlotView : ItemSlotView
     {

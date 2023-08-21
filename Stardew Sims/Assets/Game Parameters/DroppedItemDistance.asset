@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 367ea0957bcd4d1797f9eba908ed307b, type: 3}
   m_Name: DroppedItemDistance
   m_EditorClassIdentifier: 
-  _initialValue: 1.5
-  _runtimeValue: 0.25
+  _initialValue: 0.5
+  _runtimeValue: 0.5
