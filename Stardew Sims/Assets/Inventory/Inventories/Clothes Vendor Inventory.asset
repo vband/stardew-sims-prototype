@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1792fa30abb40f2a57c4e7839c29dfb, type: 3}
   m_Name: Clothes Vendor Inventory
   m_EditorClassIdentifier: 
-  _onDroppedItemGlobalEvent: {fileID: 0}
+  _onDroppedItemGlobalEvent: {fileID: 11400000, guid: a86373261356dff49b878ededa41be80, type: 2}
+  _possibleToDropItemsFromThisInventory: 0
   _startingItems:
   - {fileID: 11400000, guid: a26c8f542b8242c45a673b34aed615d3, type: 2}
   - {fileID: 11400000, guid: c77d1ef8350f992458a4269b29a4bbea, type: 2}

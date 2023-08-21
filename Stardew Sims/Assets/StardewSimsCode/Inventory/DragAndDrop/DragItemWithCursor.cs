@@ -31,8 +31,14 @@ namespace StardewSimsCode.Inventory.DragAndDrop
 
             if (destinationSlot == null)
             {
-                // Drop dragged item on world
-                originSlot.Inventory.DropItem(itemBeingDragged);
+                // Drop dragged item on world. If unable, leave it at origin slot
+                if (originSlot.Inventory.PossibleToDropItemsFromThisInventory)
+                {
+                    originSlot.Inventory.DropItem(itemBeingDragged);
+                    return;
+                }
+
+                PlaceItemAtOriginSlot(originSlot, itemBeingDragged);
                 return;
             }
 

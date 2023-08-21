@@ -8,6 +8,7 @@ namespace StardewSimsCode.Inventory
     public class Inventory : ScriptableObject
     {
         [SerializeField] private GlobalEvent _onDroppedItemGlobalEvent;
+        [SerializeField] private bool _possibleToDropItemsFromThisInventory;
 
         [SerializeField] private Item[] _startingItems = new Item[10];
         [SerializeField] private OutfitItem _startingOutfit;
@@ -22,6 +23,8 @@ namespace StardewSimsCode.Inventory
         private readonly Item[] _items = new Item[10];
 
         private int _gold;
+
+        public bool PossibleToDropItemsFromThisInventory => _possibleToDropItemsFromThisInventory;
         
         public Item[] Items => _items;
         public OutfitItem Outfit => _outfit;
