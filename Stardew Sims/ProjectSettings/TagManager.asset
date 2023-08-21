@@ -11,11 +11,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - PlayerCharacter
+  - Items
+  - ItemCollector
+  - NPC Interaction
+  - Scenery
   - 
   - 
   - 
@@ -40,4 +40,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3488386113
+    locked: 0
+  - name: Scenery
+    uniqueID: 1100329309
+    locked: 0
+  - name: Items
+    uniqueID: 804327433
+    locked: 0
+  - name: Characters
+    uniqueID: 429562059
     locked: 0

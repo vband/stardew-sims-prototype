@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8874270883143925846
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 293299701891142289, guid: 016b08c8eae600145819415df1477934, type: 3}
+      propertyPath: _inventory
+      value: 
+      objectReference: {fileID: 11400000, guid: dc7e832dee7dffa49909fe4ee41eb96a, type: 2}
+    - target: {fileID: 2276293908440070682, guid: 016b08c8eae600145819415df1477934, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2276293908440070682, guid: 016b08c8eae600145819415df1477934, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2276293908440070682, guid: 016b08c8eae600145819415df1477934, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.167
+      objectReference: {fileID: 0}
+    - target: {fileID: 2276293908440070682, guid: 016b08c8eae600145819415df1477934, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2276293908440070682, guid: 016b08c8eae600145819415df1477934, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2276293908440070682, guid: 016b08c8eae600145819415df1477934, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2276293908440070682, guid: 016b08c8eae600145819415df1477934, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2276293908440070682, guid: 016b08c8eae600145819415df1477934, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2276293908440070682, guid: 016b08c8eae600145819415df1477934, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2276293908440070682, guid: 016b08c8eae600145819415df1477934, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2276293908440070682, guid: 016b08c8eae600145819415df1477934, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2276293908440070683, guid: 016b08c8eae600145819415df1477934, type: 3}
+      propertyPath: m_Name
+      value: Barber NPC Character
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613209402280213594, guid: 016b08c8eae600145819415df1477934, type: 3}
+      propertyPath: _inventory
+      value: 
+      objectReference: {fileID: 11400000, guid: dc7e832dee7dffa49909fe4ee41eb96a, type: 2}
+    - target: {fileID: 5470712771912713761, guid: 016b08c8eae600145819415df1477934, type: 3}
+      propertyPath: _inventory
+      value: 
+      objectReference: {fileID: 11400000, guid: dc7e832dee7dffa49909fe4ee41eb96a, type: 2}
+    - target: {fileID: 6509207457038437880, guid: 016b08c8eae600145819415df1477934, type: 3}
+      propertyPath: _npcInventory
+      value: 
+      objectReference: {fileID: 11400000, guid: dc7e832dee7dffa49909fe4ee41eb96a, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 016b08c8eae600145819415df1477934, type: 3}
