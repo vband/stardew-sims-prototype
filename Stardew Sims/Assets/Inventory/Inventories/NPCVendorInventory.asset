@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1792fa30abb40f2a57c4e7839c29dfb, type: 3}
+  m_Name: NPCVendorInventory
+  m_EditorClassIdentifier: 
+  _onDroppedItemGlobalEvent: {fileID: 0}
+  _items:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _outfit: {fileID: 11400000, guid: 5f92c2cb2ce78754587f44d5172eed2a, type: 2}
+  _hair: {fileID: 0}
+  _hat: {fileID: 11400000, guid: 99cfbf391b5af584fb0b543ea8c58381, type: 2}

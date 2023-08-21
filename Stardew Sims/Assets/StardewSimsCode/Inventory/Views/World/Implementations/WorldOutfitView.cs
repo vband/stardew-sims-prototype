@@ -18,6 +18,7 @@ namespace StardewSimsCode.Inventory.Views.World.Implementations
         private void SetUpEquippedOutfit()
         {
             _spriteLibrary.spriteLibraryAsset = _inventory.Outfit.SpriteLibraryAsset;
+            _spriteResolver.SetCategoryAndLabel(_defaultSpriteResolverCategory.Value, _defaultSpriteResolverLabel.Value);
         }
     }
 }

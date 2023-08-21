@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using StardewSimsCode.SerializedTypes.Implementations;
+using UnityEngine;
 using UnityEngine.U2D.Animation;
 
 namespace StardewSimsCode.Inventory.Views.World.Base
@@ -7,7 +8,10 @@ namespace StardewSimsCode.Inventory.Views.World.Base
     {
         [SerializeField] protected Inventory _inventory;
         [SerializeField] protected SpriteLibrary _spriteLibrary;
+        [SerializeField] protected SpriteResolver _spriteResolver;
         [SerializeField] protected SpriteRenderer _spriteRenderer;
+        [SerializeField] protected SerializedString _defaultSpriteResolverCategory;
+        [SerializeField] protected SerializedString _defaultSpriteResolverLabel;
         
         protected abstract void UpdateSpriteLibrary();
 
