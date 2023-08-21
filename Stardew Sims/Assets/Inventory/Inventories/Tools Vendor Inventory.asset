@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1792fa30abb40f2a57c4e7839c29dfb, type: 3}
+  m_Name: Tools Vendor Inventory
+  m_EditorClassIdentifier: 
+  _onDroppedItemGlobalEvent: {fileID: 0}
+  _startingItems:
+  - {fileID: 11400000, guid: 126c4d5b2cd428d4cb78f27c19580b34, type: 2}
+  - {fileID: 11400000, guid: 0d509a111580aca4b8ab4971ae96dd67, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _startingOutfit: {fileID: 11400000, guid: 5f92c2cb2ce78754587f44d5172eed2a, type: 2}
+  _startingHair: {fileID: 11400000, guid: c44892f2d65cee24fa5bca1412756c89, type: 2}
+  _startingHat: {fileID: 0}
+  _startingGold: 100

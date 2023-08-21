@@ -39,7 +39,7 @@ namespace StardewSimsCode.Inventory.DragAndDrop
             if (destinationSlot.Item == null)
             {
                 // Place dragged item at other slot. If unable, leave it at origin slot
-                if (!GoldExchange.CanAfford(destinationSlot.Inventory, itemBeingDragged)
+                if (CannotCompletePurchase(destinationSlot, itemBeingDragged, originSlot)
                     || !destinationSlot.TrySetItem(itemBeingDragged))
                 {
                     PlaceItemAtOriginSlot(originSlot, itemBeingDragged);
@@ -55,8 +55,7 @@ namespace StardewSimsCode.Inventory.DragAndDrop
             var destinationSlotInitialItem = destinationSlot.Item;
             
             // Swap items between slots. If unable, leave dragged item at origin slot
-            if (!GoldExchange.CanAfford(originSlot.Inventory, destinationSlot.Item)
-                || !GoldExchange.CanAfford(destinationSlot.Inventory, itemBeingDragged)
+            if (CannotCompleteTrade(originSlot, destinationSlot, itemBeingDragged)
                 || !originSlot.TrySetItem(destinationSlot.Item)
                 || !destinationSlot.TrySetItem(itemBeingDragged))
             {
@@ -68,6 +67,19 @@ namespace StardewSimsCode.Inventory.DragAndDrop
             GoldExchange.TransferGold(destinationSlot.Inventory, originSlot.Inventory, destinationSlotInitialItem);
             originSlot.UpdateView();
             destinationSlot.UpdateView();
+        }
+
+        private static bool CannotCompleteTrade(ItemSlotView originSlot, ItemSlotView destinationSlot, Item itemBeingDragged)
+        {
+            return (originSlot.Inventory != destinationSlot.Inventory
+                    && (!GoldExchange.CanAfford(originSlot.Inventory, destinationSlot.Item)
+                        || !GoldExchange.CanAfford(destinationSlot.Inventory, itemBeingDragged)));
+        }
+
+        private static bool CannotCompletePurchase(ItemSlotView destinationSlot, Item itemBeingDragged, ItemSlotView originSlot)
+        {
+            return (!GoldExchange.CanAfford(destinationSlot.Inventory, itemBeingDragged)
+                    && originSlot.Inventory != destinationSlot.Inventory);
         }
 
         private static void PlaceItemAtOriginSlot(ItemSlotView originSlot, Item itemBeingDragged)
