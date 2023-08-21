@@ -1,6 +1,6 @@
 ﻿using StardewSimsCode.Inventory.Items;
 
-namespace StardewSimsCode.Inventory.Views
+namespace StardewSimsCode.Inventory.Views.UI
 {
     public class InterfaceHairView : InterfaceItemView
     {

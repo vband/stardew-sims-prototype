@@ -5,7 +5,7 @@ using StardewSimsCode.SerializedTypes.Implementations;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace StardewSimsCode.Inventory.Views
+namespace StardewSimsCode.Inventory.Views.UI
 {
     public class InterfaceItemView : MonoBehaviour
     {

@@ -1,7 +1,7 @@
 ﻿using StardewSimsCode.Inventory.Items;
 using UnityEngine;
 
-namespace StardewSimsCode.Inventory.Views
+namespace StardewSimsCode.Inventory.Views.World
 {
     public class WorldItemView : MonoBehaviour
     {

@@ -1,5 +1,6 @@
 ﻿using StardewSimsCode.Inventory.Items;
 using StardewSimsCode.Inventory.Views;
+using StardewSimsCode.Inventory.Views.World;
 using UnityEngine;
 
 namespace StardewSimsCode.Inventory.Behaviours

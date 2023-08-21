@@ -14,7 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _items:
   - {fileID: 0}
-  - {fileID: 11400000, guid: e699b430eaf496b4ba84b66dc94b6f13, type: 2}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -23,6 +22,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  _outfit: {fileID: 11400000, guid: 5f92c2cb2ce78754587f44d5172eed2a, type: 2}
+  - {fileID: 0}
+  _outfit: {fileID: 0}
   _hair: {fileID: 0}
   _hat: {fileID: 0}
