@@ -4,13 +4,20 @@ namespace StardewSimsCode.Inventory.Views
 {
     public class InterfaceHairView : InterfaceItemView
     {
+        public override Item Item => _inventory.Hair;
+
         public override bool TrySetItem(Item item)
         {
-            if (item is not HairItem)
+            if (item is not HairItem hairItem)
                 return false;
 
-            _item = item;
+            _inventory.EquipHair(hairItem);
             return true;
+        }
+        
+        public override void RemoveItem()
+        {
+            _inventory.UnequipHair();
         }
     }
 }

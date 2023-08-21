@@ -27,7 +27,7 @@ namespace StardewSimsCode.Inventory.Behaviours
                 || !_playerInventory.TryGetFirstFreeSpaceIndex(out var freeSpaceIndex))
                 return false;
 
-            _playerInventory.AddItem(freeSpaceIndex, item);
+            _playerInventory.SetItemAtIndex(freeSpaceIndex, item);
             return true;
         }
     }

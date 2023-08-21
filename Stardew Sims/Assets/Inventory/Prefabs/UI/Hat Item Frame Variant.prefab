@@ -7,6 +7,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6134300825449703331}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6134300825449703331}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[2].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6134300825449703331}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnBeginDrag
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnEndDrag
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[2].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnDrop
+      objectReference: {fileID: 0}
     - target: {fileID: 2752585655722005415, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -101,7 +125,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3312625051830535755, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
       propertyPath: m_Name
-      value: Hat Item Frame
+      value: Hat Item Frame Variant
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 243840295348660649, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
@@ -134,5 +158,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 522daeba4ffe495f88bd775554b820c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _inventoryIndex: -1
   _image: {fileID: 134379122567477047}
-  _item: {fileID: 0}
+  _inventory: {fileID: 11400000, guid: 4a186fdbd89bd8f44a1a07ff6cc88895, type: 2}
+  _onBeginDragGlobalEvent: {fileID: 11400000, guid: f55e509bd4c9d02409b70ff516be5155, type: 2}
+  _onEndDragGlobalEvent: {fileID: 11400000, guid: 9b2e07cf6e67db24a9ec67d30cba4b5e, type: 2}
+  _dragData: {fileID: 11400000, guid: 170ddbc3fca9ce1429a77b30b0940c39, type: 2}

@@ -6,10 +6,15 @@ namespace StardewSimsCode.Inventory
     [CreateAssetMenu(fileName = "NewInventory", menuName = "StardewSims/Inventory/Inventory")]
     public class Inventory : ScriptableObject
     {
-        public Item[] Items { get; } = new Item[10];
-        public OutfitItem Outfit { get; private set; }
-        public HairItem Hair { get; private set; }
-        public HatItem Hat { get; private set; }
+        [SerializeField] private Item[] _items = new Item[10];
+        [SerializeField] private OutfitItem _outfit = null;
+        [SerializeField] private HairItem _hair = null;
+        [SerializeField] private HatItem _hat = null;
+
+        public Item[] Items => _items;
+        public OutfitItem Outfit => _outfit;
+        public HairItem Hair => _hair;
+        public HatItem Hat => _hat;
 
         public delegate void OnInventoryChangedDelegate();
         public event OnInventoryChangedDelegate InventoryChanged;
@@ -65,19 +70,19 @@ namespace StardewSimsCode.Inventory
 
         public void EquipOutfit(OutfitItem outfit)
         {
-            Outfit = outfit;
+            _outfit = outfit;
             InventoryChanged?.Invoke();
         }
         
         public void EquipHair(HairItem hair)
         {
-            Hair = hair;
+            _hair = hair;
             InventoryChanged?.Invoke();
         }
         
         public void EquipHat(HatItem hat)
         {
-            Hat = hat;
+            _hat = hat;
             InventoryChanged?.Invoke();
         }
 
@@ -86,7 +91,7 @@ namespace StardewSimsCode.Inventory
             if (!IsEquippingOutfit())
                 return;
 
-            Outfit = null;
+            _outfit = null;
             
             InventoryChanged?.Invoke();
         }
@@ -96,7 +101,7 @@ namespace StardewSimsCode.Inventory
             if (!IsEquippingHair())
                 return;
 
-            Hair = null;
+            _hair = null;
             
             InventoryChanged?.Invoke();
         }
@@ -106,7 +111,7 @@ namespace StardewSimsCode.Inventory
             if (!IsEquippingHat())
                 return;
 
-            Hat = null;
+            _hat = null;
             
             InventoryChanged?.Invoke();
         }
@@ -116,9 +121,18 @@ namespace StardewSimsCode.Inventory
             DroppedItem?.Invoke(item);
         }
 
-        public void AddItem(int index, Item item)
+        public void SetItemAtIndex(int index, Item item)
         {
             Items[index] = item;
+            InventoryChanged?.Invoke();
+        }
+
+        public void RemoveItemFromIndex(int index)
+        {
+            if (index < 0 || index >= Items.Length || Items[index] == null)
+                return;
+
+            Items[index] = null;
             InventoryChanged?.Invoke();
         }
     }
