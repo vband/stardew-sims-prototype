@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1792fa30abb40f2a57c4e7839c29dfb, type: 3}
   m_Name: Hat Vendor Inventory
   m_EditorClassIdentifier: 
-  _onDroppedItemGlobalEvent: {fileID: 0}
+  _onDroppedItemGlobalEvent: {fileID: 11400000, guid: a86373261356dff49b878ededa41be80, type: 2}
+  _possibleToDropItemsFromThisInventory: 0
   _startingItems:
   - {fileID: 11400000, guid: 99cfbf391b5af584fb0b543ea8c58381, type: 2}
   - {fileID: 11400000, guid: 3dd08644450c0b947831bd92d508a7f6, type: 2}

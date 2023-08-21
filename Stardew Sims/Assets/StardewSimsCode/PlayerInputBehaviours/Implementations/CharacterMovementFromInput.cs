@@ -9,7 +9,14 @@ namespace StardewSimsCode.PlayerInputBehaviours.Implementations
         [SerializeField] private SerializedFloat _walkVelocity;
         [SerializeField] private SerializedFloat _runVelocity;
         [SerializeField] private SerializedBool _movementEnabled;
-        
+
+        private Rigidbody2D rb;
+
+        private void Start()
+        {
+            rb = GetComponent<Rigidbody2D>();
+        }
+
         private void Update()
         {
             MoveCharacter();
@@ -22,7 +29,7 @@ namespace StardewSimsCode.PlayerInputBehaviours.Implementations
             
             var translation = new Vector3(_movementInput.Value.x, _movementInput.Value.y, 0);
             var velocity = _runInput.Value ? _runVelocity.Value : _walkVelocity.Value;
-            transform.Translate(translation * velocity * Time.deltaTime);
+            rb.velocity = translation * velocity;
         }
 
         protected override void OnInputValuesChanged()

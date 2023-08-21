@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddd48374221c4b0ab8d205454a515b2b, type: 3}
   m_Name: Forester Tunic
   m_EditorClassIdentifier: 
-  _inventorySprite: {fileID: -1507863621, guid: 525ed18d5cdd68a43a94970dc1c1b2c6, type: 3}
-  _worldSprite: {fileID: -1507863621, guid: 525ed18d5cdd68a43a94970dc1c1b2c6, type: 3}
+  _inventorySprite: {fileID: 21300000, guid: c6f2da13120dc5b46bd72d78b864aff8, type: 3}
+  _worldSprite: {fileID: 21300000, guid: c6f2da13120dc5b46bd72d78b864aff8, type: 3}
+  _displaySprite: {fileID: -1507863621, guid: 525ed18d5cdd68a43a94970dc1c1b2c6, type: 3}
   _price: 3
   _spriteLibrary: {fileID: 7108339969198208228, guid: 5a0e7e52debc2e8458e921bba1049866, type: 3}

@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddd48374221c4b0ab8d205454a515b2b, type: 3}
   m_Name: Peasant Farmer Pants
   m_EditorClassIdentifier: 
-  _inventorySprite: {fileID: 114807217, guid: 2cde366a95339d040981298f19211440, type: 3}
-  _worldSprite: {fileID: 114807217, guid: 2cde366a95339d040981298f19211440, type: 3}
+  _inventorySprite: {fileID: 21300000, guid: 4fc44c057554a804f93bea794facf5d3, type: 3}
+  _worldSprite: {fileID: 21300000, guid: 4fc44c057554a804f93bea794facf5d3, type: 3}
+  _displaySprite: {fileID: 114807217, guid: 2cde366a95339d040981298f19211440, type: 3}
   _price: 2
   _spriteLibrary: {fileID: 7108339969198208228, guid: b8a59274b6db96040940924ae0cd56ef, type: 3}

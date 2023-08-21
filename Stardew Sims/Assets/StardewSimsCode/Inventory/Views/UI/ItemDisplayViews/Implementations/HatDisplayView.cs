@@ -17,7 +17,7 @@ namespace StardewSimsCode.Inventory.Views.UI.ItemDisplayViews.Implementations
 
         private void SetUpEquippedHat()
         {
-            _image.sprite = _inventory.Hat.InventorySprite;
+            _image.sprite = _inventory.Hat.DisplaySprite;
             SetUpEquippedColor();
         }
     }

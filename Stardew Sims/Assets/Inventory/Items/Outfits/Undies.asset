@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddd48374221c4b0ab8d205454a515b2b, type: 3}
   m_Name: Undies
   m_EditorClassIdentifier: 
-  _inventorySprite: {fileID: 1504849029, guid: f31c25ccfd9cb0644ada4f913d64c112, type: 3}
-  _worldSprite: {fileID: 1504849029, guid: f31c25ccfd9cb0644ada4f913d64c112, type: 3}
+  _inventorySprite: {fileID: 21300000, guid: b291db4bc1760ac42941da17703262d2, type: 3}
+  _worldSprite: {fileID: 21300000, guid: b291db4bc1760ac42941da17703262d2, type: 3}
+  _displaySprite: {fileID: 1504849029, guid: f31c25ccfd9cb0644ada4f913d64c112, type: 3}
   _price: 1
   _spriteLibrary: {fileID: 7108339969198208228, guid: ec888f4033fb33e42bded954284d019b, type: 3}

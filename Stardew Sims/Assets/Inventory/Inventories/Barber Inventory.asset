@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1792fa30abb40f2a57c4e7839c29dfb, type: 3}
   m_Name: Barber Inventory
   m_EditorClassIdentifier: 
-  _onDroppedItemGlobalEvent: {fileID: 0}
+  _onDroppedItemGlobalEvent: {fileID: 11400000, guid: a86373261356dff49b878ededa41be80, type: 2}
+  _possibleToDropItemsFromThisInventory: 0
   _startingItems:
   - {fileID: 11400000, guid: 226b469a4fcdee44b93cfd8f58c620df, type: 2}
   - {fileID: 11400000, guid: c44892f2d65cee24fa5bca1412756c89, type: 2}

@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b26759085b946579f0eba7f23458ef6, type: 3}
   m_Name: Pointy Hat
   m_EditorClassIdentifier: 
-  _inventorySprite: {fileID: -624329368, guid: 01f91650a3e336549bd0d4f335f2a463, type: 3}
-  _worldSprite: {fileID: -624329368, guid: 01f91650a3e336549bd0d4f335f2a463, type: 3}
+  _inventorySprite: {fileID: 21300000, guid: 0fd584262d8be7d4e9b93771f8f57ab7, type: 3}
+  _worldSprite: {fileID: 21300000, guid: 0fd584262d8be7d4e9b93771f8f57ab7, type: 3}
+  _displaySprite: {fileID: -624329368, guid: 01f91650a3e336549bd0d4f335f2a463, type: 3}
   _price: 3
   _spriteLibrary: {fileID: 7108339969198208228, guid: dd43117a85e9e554e993364fd43a6583, type: 3}
