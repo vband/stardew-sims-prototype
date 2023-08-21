@@ -721,6 +721,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4247531666310903464}
     m_Modifications:
+    - target: {fileID: 484031907005359731, guid: fab4fc4710023e247913d4f24ea2400c, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 484031907005359731, guid: fab4fc4710023e247913d4f24ea2400c, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 448d71c33a3801b4187a052810b55153, type: 2}
+    - target: {fileID: 484031907005359731, guid: fab4fc4710023e247913d4f24ea2400c, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Trigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 484031907005359731, guid: fab4fc4710023e247913d4f24ea2400c, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: StardewSimsCode.GlobalEvents.GlobalEvent, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 484031907005359731, guid: fab4fc4710023e247913d4f24ea2400c, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3584575331640474428, guid: fab4fc4710023e247913d4f24ea2400c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -809,6 +829,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Outfit Item Frame
       objectReference: {fileID: 0}
+    - target: {fileID: 6535818483596715852, guid: fab4fc4710023e247913d4f24ea2400c, type: 3}
+      propertyPath: _globalEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: f0adaa6c333ceae4ba29536bed36f12d, type: 2}
+    - target: {fileID: 6535818483596715852, guid: fab4fc4710023e247913d4f24ea2400c, type: 3}
+      propertyPath: _itemSlotView
+      value: 
+      objectReference: {fileID: 4329452678078680771}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fab4fc4710023e247913d4f24ea2400c, type: 3}
 --- !u!224 &2072049015764019987 stripped
@@ -816,6 +844,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3584575331640474428, guid: fab4fc4710023e247913d4f24ea2400c, type: 3}
   m_PrefabInstance: {fileID: 3278512637884829743}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4329452678078680771 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1255048104562876140, guid: fab4fc4710023e247913d4f24ea2400c, type: 3}
+  m_PrefabInstance: {fileID: 3278512637884829743}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf67969701e43e593c1bb464aa047bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3476258290121992375
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -823,6 +862,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4247531666310903464}
     m_Modifications:
+    - target: {fileID: 2014828483307185464, guid: 5377a4f0cedc10f43897c10ce473d85e, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014828483307185464, guid: 5377a4f0cedc10f43897c10ce473d85e, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 448d71c33a3801b4187a052810b55153, type: 2}
+    - target: {fileID: 2014828483307185464, guid: 5377a4f0cedc10f43897c10ce473d85e, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Trigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014828483307185464, guid: 5377a4f0cedc10f43897c10ce473d85e, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: StardewSimsCode.GlobalEvents.GlobalEvent, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2014828483307185464, guid: 5377a4f0cedc10f43897c10ce473d85e, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2825071001767751067, guid: 5377a4f0cedc10f43897c10ce473d85e, type: 3}
       propertyPath: m_Name
       value: Hair Item Frame
@@ -911,6 +970,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5184311574263342087, guid: 5377a4f0cedc10f43897c10ce473d85e, type: 3}
+      propertyPath: _globalEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: f0adaa6c333ceae4ba29536bed36f12d, type: 2}
+    - target: {fileID: 5184311574263342087, guid: 5377a4f0cedc10f43897c10ce473d85e, type: 3}
+      propertyPath: _itemSlotView
+      value: 
+      objectReference: {fileID: 4955897019608736869}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5377a4f0cedc10f43897c10ce473d85e, type: 3}
 --- !u!224 &2072049017426792640 stripped
@@ -918,6 +985,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3242384909080311927, guid: 5377a4f0cedc10f43897c10ce473d85e, type: 3}
   m_PrefabInstance: {fileID: 3476258290121992375}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4955897019608736869 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8428702669803637970, guid: 5377a4f0cedc10f43897c10ce473d85e, type: 3}
+  m_PrefabInstance: {fileID: 3476258290121992375}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 800505a83ec940fa96ded68fb8becb63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6183838034114910966
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -925,6 +1003,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4247531666310903464}
     m_Modifications:
+    - target: {fileID: 2458154481071773046, guid: 3ef0f31c5df5031499ce06300201e43d, type: 3}
+      propertyPath: _globalEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: f0adaa6c333ceae4ba29536bed36f12d, type: 2}
+    - target: {fileID: 2458154481071773046, guid: 3ef0f31c5df5031499ce06300201e43d, type: 3}
+      propertyPath: _itemSlotView
+      value: 
+      objectReference: {fileID: 67569336933989717}
     - target: {fileID: 4817702100771757290, guid: 3ef0f31c5df5031499ce06300201e43d, type: 3}
       propertyPath: m_Name
       value: Hat Item Frame
@@ -1013,8 +1099,39 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9086392980518327369, guid: 3ef0f31c5df5031499ce06300201e43d, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9086392980518327369, guid: 3ef0f31c5df5031499ce06300201e43d, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 448d71c33a3801b4187a052810b55153, type: 2}
+    - target: {fileID: 9086392980518327369, guid: 3ef0f31c5df5031499ce06300201e43d, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Trigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 9086392980518327369, guid: 3ef0f31c5df5031499ce06300201e43d, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: StardewSimsCode.GlobalEvents.GlobalEvent, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9086392980518327369, guid: 3ef0f31c5df5031499ce06300201e43d, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ef0f31c5df5031499ce06300201e43d, type: 3}
+--- !u!114 &67569336933989717 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6134300825449703331, guid: 3ef0f31c5df5031499ce06300201e43d, type: 3}
+  m_PrefabInstance: {fileID: 6183838034114910966}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 522daeba4ffe495f88bd775554b820c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &2072049017185981424 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5264710678302247174, guid: 3ef0f31c5df5031499ce06300201e43d, type: 3}

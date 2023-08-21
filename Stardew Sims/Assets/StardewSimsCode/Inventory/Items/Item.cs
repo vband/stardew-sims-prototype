@@ -7,8 +7,10 @@ namespace StardewSimsCode.Inventory.Items
     {
         [SerializeField] private Sprite _inventorySprite;
         [SerializeField] private Sprite _worldSprite;
+        [SerializeField] private int _price;
 
         public Sprite InventorySprite => _inventorySprite;
         public Sprite WorldSprite => _worldSprite;
+        public int Price => _price;
     }
 }
