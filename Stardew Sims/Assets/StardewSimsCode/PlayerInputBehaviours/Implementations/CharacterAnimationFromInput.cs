@@ -12,30 +12,6 @@ namespace StardewSimsCode.PlayerInputBehaviours.Implementations
         [SerializeField] private SerializedString _horizontalMovementParameterName;
         [SerializeField] private SerializedString _verticalMovementParameterName;
 
-        private void Start()
-        {
-            if (_movementInput == null)
-                Debug.LogError($"{_movementInput.name} is null");
-            
-            if (_runInput == null)
-                Debug.LogError($"{_runInput.name} is null");
-            
-            if (_animator == null)
-                Debug.LogError($"{_animator.name} is null");
-            
-            if (_isWalkingParameterName == null)
-                Debug.LogError($"{_isWalkingParameterName.name} is null");
-            
-            if (_isRunningParameterName == null)
-                Debug.LogError($"{_isRunningParameterName.name} is null");
-            
-            if (_horizontalMovementParameterName == null)
-                Debug.LogError($"{_horizontalMovementParameterName.name} is null");
-            
-            if (_verticalMovementParameterName == null)
-                Debug.LogError($"{_verticalMovementParameterName.name} is null");
-        }
-
         protected override void OnInputValuesChanged()
         {
             AnimateCharacter();
@@ -43,15 +19,6 @@ namespace StardewSimsCode.PlayerInputBehaviours.Implementations
 
         private void AnimateCharacter()
         {
-            if (_movementInput == null
-                || _runInput == null
-                || _animator == null
-                || _isWalkingParameterName == null
-                || _isRunningParameterName == null
-                || _horizontalMovementParameterName == null
-                || _verticalMovementParameterName == null)
-                return;
-
             var isMovementMagnitudePositive = _movementInput.Value.magnitude > 0f;
             var running = _runInput.Value && isMovementMagnitudePositive;
             var walking = !_runInput.Value && isMovementMagnitudePositive;
