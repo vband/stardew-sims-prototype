@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddd48374221c4b0ab8d205454a515b2b, type: 3}
   m_Name: Boxers
   m_EditorClassIdentifier: 
-  _inventorySprite: {fileID: 2105599484, guid: 2adfc3973ed946744a650dc47317f20c, type: 3}
-  _worldSprite: {fileID: 2105599484, guid: 2adfc3973ed946744a650dc47317f20c, type: 3}
+  _inventorySprite: {fileID: 21300000, guid: 005d02d8de1170342a55aed1c5ec5dba, type: 3}
+  _worldSprite: {fileID: 21300000, guid: 005d02d8de1170342a55aed1c5ec5dba, type: 3}
+  _displaySprite: {fileID: 2105599484, guid: 2adfc3973ed946744a650dc47317f20c, type: 3}
   _price: 1
   _spriteLibrary: {fileID: 7108339969198208228, guid: e6cf0cb23c0d86540b4c7624203ffce9, type: 3}

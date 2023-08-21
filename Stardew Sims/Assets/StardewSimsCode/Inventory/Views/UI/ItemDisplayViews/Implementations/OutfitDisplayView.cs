@@ -17,7 +17,7 @@ namespace StardewSimsCode.Inventory.Views.UI.ItemDisplayViews.Implementations
 
         private void SetUpEquippedOutfit()
         {
-            _image.sprite = _inventory.Outfit.InventorySprite;
+            _image.sprite = _inventory.Outfit.DisplaySprite;
             SetUpEquippedColor();
         }
     }

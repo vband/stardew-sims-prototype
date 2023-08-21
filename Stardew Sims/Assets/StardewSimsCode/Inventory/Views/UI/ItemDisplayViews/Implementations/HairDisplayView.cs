@@ -17,7 +17,7 @@ namespace StardewSimsCode.Inventory.Views.UI.ItemDisplayViews.Implementations
 
         private void SetUpEquippedHair()
         {
-            _image.sprite = _inventory.Hair.InventorySprite;
+            _image.sprite = _inventory.Hair.DisplaySprite;
             SetUpEquippedColor();
         }
     }

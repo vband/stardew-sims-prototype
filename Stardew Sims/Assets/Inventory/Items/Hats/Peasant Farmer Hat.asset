@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b26759085b946579f0eba7f23458ef6, type: 3}
   m_Name: Peasant Farmer Hat
   m_EditorClassIdentifier: 
-  _inventorySprite: {fileID: -470355138, guid: 767619fbd0690194b9272814d0ec0a72, type: 3}
-  _worldSprite: {fileID: -470355138, guid: 767619fbd0690194b9272814d0ec0a72, type: 3}
+  _inventorySprite: {fileID: 21300000, guid: b04de4dd3d19a2d46a3f1fd11d1077a8, type: 3}
+  _worldSprite: {fileID: 21300000, guid: b04de4dd3d19a2d46a3f1fd11d1077a8, type: 3}
+  _displaySprite: {fileID: -470355138, guid: 767619fbd0690194b9272814d0ec0a72, type: 3}
   _price: 1
   _spriteLibrary: {fileID: 7108339969198208228, guid: 63faed16d98d4c34684bfc85bc832461, type: 3}

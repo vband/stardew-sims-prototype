@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4dcebf12dc14b6b9242291219b8fc68, type: 3}
   m_Name: Hair 2
   m_EditorClassIdentifier: 
-  _inventorySprite: {fileID: -12355695, guid: 75e7faf62c80b5a47baadaafaab18683, type: 3}
-  _worldSprite: {fileID: -12355695, guid: 75e7faf62c80b5a47baadaafaab18683, type: 3}
+  _inventorySprite: {fileID: 21300000, guid: 34fa621361eba0240ab64d0a8770cc40, type: 3}
+  _worldSprite: {fileID: 21300000, guid: 34fa621361eba0240ab64d0a8770cc40, type: 3}
+  _displaySprite: {fileID: -12355695, guid: 75e7faf62c80b5a47baadaafaab18683, type: 3}
   _price: 3
   _spriteLibrary: {fileID: 7108339969198208228, guid: 70a0ab1904d3fd3449d5516a88713714, type: 3}
