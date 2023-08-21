@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _inventorySprite: {fileID: 1504849029, guid: f31c25ccfd9cb0644ada4f913d64c112, type: 3}
   _worldSprite: {fileID: 1504849029, guid: f31c25ccfd9cb0644ada4f913d64c112, type: 3}
+  _price: 1
   _spriteLibrary: {fileID: 7108339969198208228, guid: ec888f4033fb33e42bded954284d019b, type: 3}

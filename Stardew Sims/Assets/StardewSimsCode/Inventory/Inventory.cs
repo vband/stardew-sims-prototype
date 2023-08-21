@@ -8,19 +8,52 @@ namespace StardewSimsCode.Inventory
     public class Inventory : ScriptableObject
     {
         [SerializeField] private GlobalEvent _onDroppedItemGlobalEvent;
-        
-        [SerializeField] private Item[] _items = new Item[10];
-        [SerializeField] private OutfitItem _outfit = null;
-        [SerializeField] private HairItem _hair = null;
-        [SerializeField] private HatItem _hat = null;
 
+        [SerializeField] private Item[] _startingItems = new Item[10];
+        [SerializeField] private OutfitItem _startingOutfit;
+        [SerializeField] private HairItem _startingHair;
+        [SerializeField] private HatItem _startingHat;
+        [SerializeField] private int _startingGold;
+        
+        private OutfitItem _outfit;
+        private HairItem _hair;
+        private HatItem _hat;
+
+        private readonly Item[] _items = new Item[10];
+
+        private int _gold;
+        
         public Item[] Items => _items;
         public OutfitItem Outfit => _outfit;
         public HairItem Hair => _hair;
         public HatItem Hat => _hat;
 
+        public int Gold
+        {
+            get => _gold;
+            set
+            {
+                _gold = value;
+                InventoryChanged?.Invoke();
+            }
+        }
+
         public delegate void OnInventoryChangedDelegate();
         public event OnInventoryChangedDelegate InventoryChanged;
+
+        public void InitializeStartingItems()
+        {
+            for (var i = 0; i < _items.Length; i++)
+            {
+                _items[i] = _startingItems[i];
+            }
+
+            _outfit = _startingOutfit;
+            _hair = _startingHair;
+            _hat = _startingHat;
+
+            _gold = _startingGold;
+        }
 
         public int GetFreeSpacesCount()
         {

@@ -36,6 +36,12 @@ namespace StardewSimsCode.Inventory.Views.UI.ItemSlotViews
             _inventory.InventoryChanged -= UpdateView;
         }
 
+        public void SetInventory(Inventory inventory)
+        {
+            _inventory = inventory;
+            UpdateView();
+        }
+
         public virtual bool TrySetItem(Item item)
         {
             _inventory.SetItemAtIndex(_inventoryIndex, item);

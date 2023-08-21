@@ -185,6 +185,26 @@ PrefabInstance:
       propertyPath: _inventory
       value: 
       objectReference: {fileID: 11400000, guid: 4a186fdbd89bd8f44a1a07ff6cc88895, type: 2}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 448d71c33a3801b4187a052810b55153, type: 2}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Trigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: StardewSimsCode.GlobalEvents.GlobalEvent, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2752585655722005415, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -273,6 +293,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Item Frame (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5565950081562922967, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: _globalEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: f0adaa6c333ceae4ba29536bed36f12d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
 --- !u!224 &156326718626274064 stripped
@@ -294,6 +318,26 @@ PrefabInstance:
     - target: {fileID: 243840295348660649, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
       propertyPath: _inventoryIndex
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 448d71c33a3801b4187a052810b55153, type: 2}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Trigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: StardewSimsCode.GlobalEvents.GlobalEvent, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2752585655722005415, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
       propertyPath: m_Pivot.x
@@ -383,6 +427,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Item Frame (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5565950081562922967, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: _globalEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: f0adaa6c333ceae4ba29536bed36f12d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
 --- !u!224 &7931146948401642445 stripped
@@ -404,6 +452,26 @@ PrefabInstance:
     - target: {fileID: 243840295348660649, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
       propertyPath: _inventoryIndex
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 448d71c33a3801b4187a052810b55153, type: 2}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Trigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: StardewSimsCode.GlobalEvents.GlobalEvent, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2752585655722005415, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
       propertyPath: m_Pivot.x
@@ -493,6 +561,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Item Frame (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5565950081562922967, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: _globalEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: f0adaa6c333ceae4ba29536bed36f12d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
 --- !u!224 &7931146948282567251 stripped
@@ -514,6 +586,26 @@ PrefabInstance:
     - target: {fileID: 243840295348660649, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
       propertyPath: _inventoryIndex
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 448d71c33a3801b4187a052810b55153, type: 2}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Trigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: StardewSimsCode.GlobalEvents.GlobalEvent, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2752585655722005415, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
       propertyPath: m_Pivot.x
@@ -603,6 +695,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Item Frame (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5565950081562922967, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: _globalEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: f0adaa6c333ceae4ba29536bed36f12d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
 --- !u!224 &7931146948254569616 stripped
@@ -624,6 +720,26 @@ PrefabInstance:
     - target: {fileID: 243840295348660649, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
       propertyPath: _inventoryIndex
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 448d71c33a3801b4187a052810b55153, type: 2}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Trigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: StardewSimsCode.GlobalEvents.GlobalEvent, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2752585655722005415, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
       propertyPath: m_Pivot.x
@@ -713,6 +829,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Item Frame (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5565950081562922967, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: _globalEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: f0adaa6c333ceae4ba29536bed36f12d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
 --- !u!224 &7931146948730716870 stripped
@@ -734,6 +854,26 @@ PrefabInstance:
     - target: {fileID: 243840295348660649, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
       propertyPath: _inventoryIndex
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 448d71c33a3801b4187a052810b55153, type: 2}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Trigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: StardewSimsCode.GlobalEvents.GlobalEvent, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2752585655722005415, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
       propertyPath: m_Pivot.x
@@ -823,6 +963,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Item Frame (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5565950081562922967, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: _globalEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: f0adaa6c333ceae4ba29536bed36f12d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
 --- !u!224 &7931146948606203476 stripped
@@ -844,6 +988,26 @@ PrefabInstance:
     - target: {fileID: 243840295348660649, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
       propertyPath: _inventoryIndex
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 448d71c33a3801b4187a052810b55153, type: 2}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Trigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: StardewSimsCode.GlobalEvents.GlobalEvent, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2752585655722005415, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
       propertyPath: m_Pivot.x
@@ -933,6 +1097,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Item Frame (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5565950081562922967, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: _globalEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: f0adaa6c333ceae4ba29536bed36f12d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
 --- !u!224 &7931146947721392156 stripped
@@ -954,6 +1122,26 @@ PrefabInstance:
     - target: {fileID: 243840295348660649, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
       propertyPath: _inventoryIndex
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 448d71c33a3801b4187a052810b55153, type: 2}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Trigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: StardewSimsCode.GlobalEvents.GlobalEvent, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2752585655722005415, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
       propertyPath: m_Pivot.x
@@ -1043,6 +1231,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Item Frame (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5565950081562922967, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: _globalEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: f0adaa6c333ceae4ba29536bed36f12d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
 --- !u!224 &7931146948197394926 stripped
@@ -1064,6 +1256,26 @@ PrefabInstance:
     - target: {fileID: 243840295348660649, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
       propertyPath: _inventoryIndex
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 448d71c33a3801b4187a052810b55153, type: 2}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Trigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: StardewSimsCode.GlobalEvents.GlobalEvent, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2752585655722005415, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
       propertyPath: m_Pivot.x
@@ -1153,6 +1365,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Item Frame (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5565950081562922967, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: _globalEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: f0adaa6c333ceae4ba29536bed36f12d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
 --- !u!224 &7931146947224943220 stripped
@@ -1174,6 +1390,26 @@ PrefabInstance:
     - target: {fileID: 243840295348660649, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
       propertyPath: _inventoryIndex
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 448d71c33a3801b4187a052810b55153, type: 2}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Trigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: StardewSimsCode.GlobalEvents.GlobalEvent, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241443323922206440, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2752585655722005415, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
       propertyPath: m_Pivot.x
@@ -1263,6 +1499,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Item Frame (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5565950081562922967, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
+      propertyPath: _globalEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: f0adaa6c333ceae4ba29536bed36f12d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c6c3ee6a0ba88b4b9c697300d5a7bd7, type: 3}
 --- !u!224 &7931146947701810424 stripped
